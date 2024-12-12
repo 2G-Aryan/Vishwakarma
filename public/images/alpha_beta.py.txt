@@ -1,0 +1,43 @@
+import math
+
+class Node:
+    def __init__(self, value=None):
+        self.value = value
+        self.children = []
+
+def minimax_alpha_beta(node, depth, alpha, beta, maximizingPlayer):
+    if depth == 0 or not node.children:
+        return node.value
+
+    if maximizingPlayer:
+        maxEval = -1000
+        for child in node.children:
+            eval = minimax_alpha_beta(child, depth - 1, alpha, beta, False)
+            maxEval = max(maxEval, eval)
+            alpha = max(alpha, eval)
+            if beta <= alpha:
+                break
+        return maxEval
+    else:
+        minEval = 1000
+        for child in node.children:
+            eval = minimax_alpha_beta(child, depth - 1, alpha, beta, True)
+            minEval = min(minEval, eval)
+            beta = min(beta, eval)
+            if beta <= alpha:
+                break
+        return minEval
+
+ 
+# Constructing a simple game tree
+root = Node()
+child1 = Node()
+child2 = Node()
+root.children = [child1, child2]
+
+child1.children = [Node(3), Node(5), Node(6)]
+child2.children = [Node(9), Node(1), Node(2)]
+
+# Running the alpha-beta search
+result = minimax_alpha_beta(root, 3, -1000, 1000, True)
+print("The result of the alpha-beta search is: {}".format(result))
