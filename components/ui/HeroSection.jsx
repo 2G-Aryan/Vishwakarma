@@ -1,6 +1,6 @@
 'use client'
 
-import { Button } from "./Button";
+import { Button } from "./button";
 import { TbArrowUpRight } from 'react-icons/tb';
 import Image from "next/image";
 import { titleVariants, desVariants, tagVariants } from '@/utils/animation';
