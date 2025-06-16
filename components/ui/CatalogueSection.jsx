@@ -7,28 +7,28 @@ export default function CatalogueSection() {
       id: "01",
       category: "BEDROOM SETUP",
       title: "Cozy Bedroom Setup",
-      image: "/image/badroom.jpg",
+      image: "/img/bedroom.jpeg",
       description: "Family bedroom with a clean and comfortable design for your family.",
     },
     {
       id: "02",
       category: "KITCHEN SETUP",
       title: "Neat & Clean Kitchen",
-      image: "/image/kitchen1.jpg",
+      image: "/imgs/kiten.png",
       description: "Family kitchen with a clean and modern design.",
     },
     {
       id: "03",
-      category: "DRAWING SETUP",
+      category: "Bathroom",
       title: "Family Drowing Room",
-      image: "/image/drowing.jpg",
+      image: "/img/p1.jpeg",
       description: "Family drawing room with a clean and comfortable design for your family.",
     },
     {
       id: "04",
       category: "LIVING SETUP",
       title: "Cozy Living Room Setup",
-      image: "/image/living.jpg",
+      image: "/img/livingroom.jpeg",
       description: "Living room with a cozy and modern design.",
     },
   ];
@@ -55,7 +55,7 @@ export default function CatalogueSection() {
               <a href="#" aria-label={`View details of ${item.title}`}>{item.title}</a>
             
             <p className="mb-4">{item.description}</p>
-            <a href="#" className="flex items-center" aria-label={`See details of ${item.title}`}>
+            <a href="/gallery" className="flex items-center" aria-label={`See details of ${item.title}`}>
               See details
               <TbArrowNarrowRight className="ml-2" />
             </a>

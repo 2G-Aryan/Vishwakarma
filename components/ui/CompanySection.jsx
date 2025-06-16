@@ -14,7 +14,7 @@ const CompanySection = () => {
           whileInView={"onscreen"}
           variants={titleVariants}
           className="mx-auto flex max-w-xs flex-col gap-y-4">
-            <dt className="text-white leading-7">Designs</dt>
+            <dt className="text-white leading-7">Stone and Marbles</dt>
             <dd className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">
               <Badge endCountNum={60} endCountText="+" />
             </dd>

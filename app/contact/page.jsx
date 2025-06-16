@@ -36,28 +36,29 @@ const Page = () => {
   };
 
   return (
-    <section className="flex justify-center items-center min-h-screen bg-gray-100">
-      <form onSubmit={onSubmit} className="max-w-md w-full bg-white p-6 rounded-lg shadow-lg m-6">
+    <section className="flex justify-center items-center min-h-screen bg-gray-100 bg-[url('/img/p4.jpeg')] bg-cover bg-center">
+      <form onSubmit={onSubmit} className="max-w-md w-full bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-lg shadow-lg m-6 text-white">
+        <input type="hidden" name="access_key" value="af32f2ff-7c93-49ac-8eef-dfc026a294ff" />
         <motion.h2
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 0.5 }}
-          className="text-3xl text-center  text-orange-700 font-bold"
+          className="text-3xl text-center  text-white-700 font-bold"
         >
           Contact Us
         </motion.h2>
         <div className="mt-5">
-          <label className="block  text-orange-700 font-bold">Full Name</label>
+          <label className="block  text-white-700 font-bold">Full Name</label>
           <input
             type="text"
-            className="field w-full h-12 bg-transparent border-2 border-gray-300 rounded-md p-3 text-gray-800 mt-2"
+            className="field w-full h-12 bg-transparent border-2 border-gray-300 rounded-md p-3 text-black   mt-2"
             placeholder="Enter your name"
             name="name"
             required
           />
         </div>
         <div className="mt-5">
-          <label className="block  text-orange-700 font-bold">Email Address</label>
+          <label className="block  text-white-700 font-bold">Email Address</label>
           <input
             type="email"
             className="field w-full h-12 bg-transparent border-2 border-gray-300 rounded-md p-3 text-gray-800 mt-2"
@@ -67,7 +68,7 @@ const Page = () => {
           />
         </div>
         <div className="mt-5">
-          <label className="block  text-orange-700 font-bold">Enter your Number</label>
+          <label className="block  text-white-700 font-bold">Enter your Number</label>
           <input
             type="number"
             className="field w-full h-12 bg-transparent border-2 border-gray-300 rounded-md p-3 text-gray-800 mt-2"
@@ -77,7 +78,7 @@ const Page = () => {
           />
         </div>
         <div className="mt-5">
-          <label className="block text-orange-700 font-bold">Enter your Message</label>
+          <label className="block text-white-700 font-bold">Enter your Message</label>
           <textarea
             name="message"
             className="field w-full h-52 bg-transparent border-2 border-gray-300 rounded-md p-3 text-gray-800 mt-2 resize-none"
@@ -87,7 +88,7 @@ const Page = () => {
         </div>
         <button
           type="submit"
-          className="w-full h-14 bg-orange-600 text-white rounded-md shadow-lg mt-6 text-lg font-medium transition duration-500 hover:bg-black"
+          className="w-full h-14 bg-orange-500 text-white rounded-md shadow-lg mt-6 text-lg font-medium transition duration-500 hover:bg-black"
         >
           Send Message
         </button>
