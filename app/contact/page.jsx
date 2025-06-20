@@ -48,6 +48,7 @@ const Page = () => {
           Contact Us
         </motion.h2>
         <div className="mt-5">
+          
           <label className="block  text-white-700 font-bold">Full Name</label>
           <input
             type="text"

@@ -14,7 +14,7 @@ const About = () => {
         variants={titleVariants}
         >
           <Image
-            src="/img/aboutpic.jpeg"
+            src="/imgs/q9.jpeg"
             width={900}
             height={500}
             alt="About our company"
@@ -26,7 +26,7 @@ const About = () => {
           initial="offscreen"
           whileInView={"onscreen"}
           variants={titleVariants}
-          className="px-12 py-4 text-3xl font-extrabold leading-tight lg:text-5xl">Our Objective</motion.h2>
+          className="px-12 py-4 text-3xl font-extrabold leading-tight lg:text-5xl">Objective</motion.h2>
           <motion.p
           initial="offscreen"
           whileInView={"onscreen"}
@@ -36,8 +36,8 @@ const About = () => {
           initial="offscreen"
           whileInView={"onscreen"}
           variants={tagVariants}
-          className="px-12 pb-4 mt-4">
-         Our objective is to provide exquisite, high-quality natural stone flooring solutions that embody luxury, elegance, and timeless beauty. We are dedicated to serving discerning clients who seek nothing less than perfection, offering bespoke craftsmanship, exclusive materials, and unmatched attention to detail. Our goal is to transform prestigious spaces into masterpieces that reflect refined taste and enduring sophistication.
+          className="px-12 pb-4 mt-4 font-serif font-sans" >
+          Our objective is to provide exquisite, high-quality natural stone flooring solutions that embody luxury, elegance, and timeless beauty. We are dedicated to serving discerning clients who seek nothing less than perfection, offering bespoke craftsmanship, exclusive materials, and unmatched attention to detail. Our goal is to transform prestigious spaces into masterpieces that reflect refined taste and enduring sophistication.
           </motion.p>
           <motion.p 
           initial="offscreen"

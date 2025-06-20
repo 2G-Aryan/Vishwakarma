@@ -20,7 +20,7 @@ export default function Footer() {
             <h2 className='pb-4 text-xl font-semibold uppercase'>Features</h2>
             <div className='flex flex-col'>
               <Link href='/about' className='py-1 hover:underline'>About us</Link>
-              <Link href='/about' className='py-1 hover:underline'>Location</Link>
+              <Link href='https://maps.app.goo.gl/KZ2pRbwMi4grbcdu6' className='py-1 hover:underline'>Location</Link>
               <Link href='/gallery' className='py-1 hover:underline'>Gallery</Link>
               <Link href='/contact' className='py-1 hover:underline'>Contact</Link>
             </div>
@@ -36,7 +36,7 @@ export default function Footer() {
             <h2 className='pb-4 text-xl font-semibold uppercase'>Connect</h2>
             <div className='flex flex-col'>
               <Link href='/' className='py-1 hover:underline'>Instagram</Link>
-              <Link href='/' className='py-1 hover:underline'>Twitter</Link>
+              <Link href='/' className='py-1 hover:underline'>Whatsapp</Link>
               <Link href='/' className='py-1 hover:underline'>LinkedIn</Link>
               <Link href='/' className='py-1 hover:underline'>Facebook</Link>
             </div>

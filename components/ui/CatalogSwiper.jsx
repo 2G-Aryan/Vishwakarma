@@ -36,7 +36,8 @@ const CatalogSwiper = () => {
           initial="offscreen"
           whileInView={"onscreen"}
           variants={tagVariants}
-          className="grid grid-cols-2 text-gray-500 gap-x-8"
+          className="grid grid-cols-2 text-gray-500 gap-x-8 font-serif"
+          
         >
           <p>
             <b>  Crafting Luxury, One Stone at a Time </b> <br />

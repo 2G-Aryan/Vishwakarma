@@ -5,9 +5,8 @@ import { motion } from 'framer-motion';
 const page = () => {
   return (
     <div>
-      <div className="bg-[url('/img/name.jpeg')] bg-center bg-cover">
+     <div className="bg-[url('/img/rename.png')] bg-center bg-cover ">
         <h1 className="container py-32 text-6xl font-semibold text-black tracking-wider text-center lg:py-64">
-       {/* About Us */}
         </h1>
       </div>
       <div className="border-b border-neutral-900 pb-4">
@@ -42,7 +41,7 @@ const page = () => {
 
     {/* Text Section */}
     <div className="w-full lg:w-1/2">
-      <div className="text-center lg:text-left space-y-6">
+      <div className="text-center lg:text-left space-y-6  font-serif">
         <h2 className="text-2xl lg:text-3xl font-bold text-blue-800">
           🏆 30+ Years of Industry Excellence
         </h2>
