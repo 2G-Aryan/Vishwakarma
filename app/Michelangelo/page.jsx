@@ -1,23 +1,19 @@
-'use client';
+import React from 'react'
 
-import React from 'react';
-
-const GalleryPage = () => {
-  const images = [
-    "/imgs/q9.jpeg",
-    "/imgs/q8.jpeg",
+const page = () => {
+      const images = [
+    "/imgs/q2.jpeg",
+    "/imgs/q3.jpeg",
     "/imgs/q5.jpeg",
-    "/imgs/q7.jpeg",
-    "/img/bedroom.jpeg",
-    "/img/p2.jpeg",
-    "/images/x2.jpeg",
-    "/images/x14.jpeg",
-    "/images/x19.jpeg",
-    "/images/x20.jpeg",
-    "/images/x22.jpeg",
-
+    "/imgs/q6.jpeg",
+    "/imgs/q13.jpeg",
+    "/img/aboutpic.jpeg",
+    "/img/p99.jpeg",
+    "/img/p5.jpeg",
+    "/img/p7.jpeg",
+    "/img/p4.jpeg",
+    
   ];
-
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -36,7 +32,7 @@ const GalleryPage = () => {
         ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default GalleryPage;
+export default page

@@ -7,7 +7,7 @@ const CompanySection = () => {
   return (
     <div className="bg-primary dark:bg-tertiary py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
+        <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3 font-cinzel">
           {/* Badge 1 */}
           <motion.div 
           initial="offscreen"

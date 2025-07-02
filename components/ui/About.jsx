@@ -21,7 +21,7 @@ const About = () => {
             className='max-md:hidden'
           />
         </motion.div>
-        <div className="items-center">
+        <div className="items-center font-cinzel">
           <motion.h2
           initial="offscreen"
           whileInView={"onscreen"}
@@ -36,7 +36,7 @@ const About = () => {
           initial="offscreen"
           whileInView={"onscreen"}
           variants={tagVariants}
-          className="px-12 pb-4 mt-4 font-serif font-sans" >
+          className="px-12 pb-4 mt-4" >
           Our objective is to provide exquisite, high-quality natural stone flooring solutions that embody luxury, elegance, and timeless beauty. We are dedicated to serving discerning clients who seek nothing less than perfection, offering bespoke craftsmanship, exclusive materials, and unmatched attention to detail. Our goal is to transform prestigious spaces into masterpieces that reflect refined taste and enduring sophistication.
           </motion.p>
           <motion.p 

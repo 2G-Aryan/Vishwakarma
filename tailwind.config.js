@@ -61,6 +61,9 @@ module.exports = {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
       },
+      fontFamily: {
+        cinzel: ['Cinzel', 'serif'],
+      },
       keyframes: {
         blink: {
           '0%, 100%': { opacity: 0 },

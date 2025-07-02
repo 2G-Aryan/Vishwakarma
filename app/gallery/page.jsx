@@ -5,6 +5,16 @@ const Page = () => {
     <div className='max-w-screen-xl mx-auto py-10 grid grid-cols-2 md:grid-cols-4 gap-4'>
       <div className='flex flex-col gap-4'>
         <div>
+          <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/images/x3.jpeg" alt="no" />
+        </div>
+         <div>
+          <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/images/x6.jpeg" alt="no" />
+        </div>
+        <div>
+          <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/images/x2.jpeg" alt="no" />
+        </div>
+        
+        <div>
           <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/img/balcany.jpeg" alt="no" />
         </div>
         <div>
@@ -26,12 +36,24 @@ const Page = () => {
         <div>
           <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/imgs/q3.jpeg" alt="no" />
         </div>
-        
+         <div>
+          <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/images/x17.jpeg" alt="no" />
+        </div>
+
 
       </div>
 
-      
+
       <div className='flex flex-col gap-4'>
+        <div>
+          <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/images/x4.jpeg" alt="no" />
+        </div>
+          <div>
+          <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/images/x7.jpeg" alt="no" />
+        </div>
+          <div>
+          <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/images/x14.jpeg" alt="no" />
+        </div>
         <div>
           <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/img/kicten.jpeg" alt="no" />
         </div>
@@ -43,7 +65,7 @@ const Page = () => {
         </div>
 
 
- <div>
+        <div>
           <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/imgs/q4.jpeg" alt="no" />
         </div>
         <div>
@@ -53,11 +75,22 @@ const Page = () => {
         <div>
           <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/img/livingroom.jpeg" alt="no" />
         </div>
-
+    <div>
+          <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/images/x21.jpeg" alt="no" />
+        </div>
       </div>
 
 
       <div className='flex flex-col gap-4'>
+        <div>
+          <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/images/x23.jpeg" alt="no" />
+        </div>
+         <div>
+          <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/images/x9.jpeg" alt="no" />
+        </div>
+         <div>
+          <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/images/x19.jpeg" alt="no" />
+        </div>
         <div>
           <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/img/p2.jpeg" alt="no" />
         </div>
@@ -67,31 +100,43 @@ const Page = () => {
         <div>
           <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/img/p4.jpeg" alt="no" />
         </div>
-         <div>
+        <div>
           <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/img/bedroom.jpeg" alt="no" />
         </div>
 
- <div>
+        <div>
           <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/imgs/q7.jpeg" alt="no" />
         </div>
         <div>
           <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/imgs/q8.jpeg" alt="no" />
         </div>
- <div>
+        <div>
           <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/imgs/q9.jpeg" alt="no" />
         </div>
-         <div>
+        <div>
           <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/imgs/q17.jpeg" alt="no" />
         </div>
+        <div>
+          <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/images/x8.jpeg" alt="no" />
+        </div>
 
-       
+
 
 
       </div>
-      
+
       <div className='flex flex-col gap-4'>
         <div>
-          <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/img/p3.jpeg" alt="no" />
+          <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/images/x5.jpeg" alt="no" />
+        </div>
+          <div>
+          <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/images/x11.jpeg" alt="no" />
+        </div>
+          <div>
+          <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/images/x22.jpeg" alt="no" />
+        </div>
+        <div>
+          <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/images/x12.jpeg" alt="no" />
         </div>
         <div>
           <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/img/p7.jpeg" alt="no" />
@@ -99,13 +144,13 @@ const Page = () => {
         <div>
           <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/img/p5.jpeg" alt="no" />
         </div>
-         <div>
+        <div>
           <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/img/balcany.jpeg" alt="no" />
         </div>
 
 
 
- <div>
+        <div>
           <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/imgs/q10.jpeg" alt="no" />
         </div>
         <div>
@@ -114,10 +159,12 @@ const Page = () => {
         <div>
           <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/imgs/q12.jpeg" alt="no" />
         </div>
-<div>
+        <div>
           <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/imgs/q6.jpeg" alt="no" />
         </div>
-
+ <div>
+          <img className="w-full h-full object-cover rounded-lg hover:scale-90 transition-all" src="/images/x18.jpeg" alt="no" />
+        </div>
 
       </div>
     </div>

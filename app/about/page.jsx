@@ -4,8 +4,8 @@ import { motion } from 'framer-motion';
 
 const page = () => {
   return (
-    <div>
-     <div className="bg-[url('/img/rename.png')] bg-center bg-cover ">
+    <div className='font-cinzel'>
+     <div className="bg-[url('/img/aboutlogo.png')] bg-center bg-cover ">
         <h1 className="container py-32 text-6xl font-semibold text-black tracking-wider text-center lg:py-64">
         </h1>
       </div>
@@ -41,8 +41,8 @@ const page = () => {
 
     {/* Text Section */}
     <div className="w-full lg:w-1/2">
-      <div className="text-center lg:text-left space-y-6  font-serif">
-        <h2 className="text-2xl lg:text-3xl font-bold text-blue-800">
+      <div className="text-center lg:text-left space-y-6  font-cinzel">
+        <h2 className="text-2xl lg:text-3xl font-bold text-blue-800 font-cinzel">
           🏆 30+ Years of Industry Excellence
         </h2>
         <p className="text-base lg:text-lg leading-relaxed">
@@ -92,7 +92,7 @@ const page = () => {
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-6 text-gray-800">Address of Office</h2>
         <p className="text-lg text-gray-600 mb-4">
-         Near Khatu Shyam Temple, Surat, Gujarat 395007
+Atlanta business hub opp ofira posh near croma vesu surat
         </p>
 
         <div className="w-full h-96 rounded-lg overflow-hidden shadow-lg">

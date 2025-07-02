@@ -18,7 +18,7 @@ const CatalogSwiper = () => {
             initial="offscreen"
             whileInView={"onscreen"}
             variants={titleVariants}
-            className="py-4 text-4xl font-medium lg:text-6xl lg:py-0"
+            className="py-4 text-4xl font-medium lg:text-6xl lg:py-0 font-cinzel"
           >
             Vishwakarma
           </motion.h1>
@@ -26,7 +26,7 @@ const CatalogSwiper = () => {
             initial="offscreen"
             whileInView={"onscreen"}
             variants={desVariants}
-            className="pb-6 text-xl font-bold tracking-wider mt-5"
+            className="pb-6 text-xl font-bold tracking-wider mt-5 font-cinzel"
           >
 
             Civil And Stone Work | Designing Luxury & Comfort for Your Home
@@ -36,7 +36,7 @@ const CatalogSwiper = () => {
           initial="offscreen"
           whileInView={"onscreen"}
           variants={tagVariants}
-          className="grid grid-cols-2 text-gray-500 gap-x-8 font-serif"
+          className="grid grid-cols-2 text-gray-500 gap-x-8 font-cinzel"
           
         >
           <p>

@@ -8,7 +8,7 @@ export default function Footer() {
   return (
    
 
-    <div className='bg-tertiary'>
+    <div className='bg-tertiary font-cinzel'>
     <div className='container lg:grid lg:grid-cols-2 py-2'>
 
         <div className='grid gap-4 text-left lg:pb-0 lg:grid-cols-3'>
@@ -35,10 +35,10 @@ export default function Footer() {
           >
             <h2 className='pb-4 text-xl font-semibold uppercase'>Connect</h2>
             <div className='flex flex-col'>
-              <Link href='/' className='py-1 hover:underline'>Instagram</Link>
+              <Link href='https://www.instagram.com/vishwakarma_civilandstonework?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' className='py-1 hover:underline'>Instagram</Link>
               <Link href='/' className='py-1 hover:underline'>Whatsapp</Link>
-              <Link href='/' className='py-1 hover:underline'>LinkedIn</Link>
-              <Link href='/' className='py-1 hover:underline'>Facebook</Link>
+              <Link href='mailto:vishwakarmacivilandstonework@gmail.com?subject=Hello&body=Hi%20there,%20I%20wanted%20to%20talk%20to%20you.'>Gmail</Link>
+              {/* <Link href='/' className='py-1 hover:underline'>Facebook</Link> */}
             </div>
           </motion.div>
         </div>

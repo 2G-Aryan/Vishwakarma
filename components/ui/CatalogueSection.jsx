@@ -28,16 +28,8 @@ export default function CatalogueSection() {
       description: "Family bedroom with a clean and comfortable design for your family.",
       detailsLink: "/bedroom"
     },
-    {
+        {
       id: "02",
-      category: "KITCHEN SETUP",
-      title: "Neat & Clean Kitchen",
-      image: "/imgs/kiten.png",
-      description: "Family kitchen with a clean and modern design.",
-      detailsLink: "/kitchen-details"
-    },
-    {
-      id: "03",
       category: "Bathroom",
       title: "Family Drowing Room",
       image: "/img/p1.jpeg",
@@ -45,13 +37,22 @@ export default function CatalogueSection() {
       detailsLink: "/bathroom"
     },
     {
-      id: "04",
+      id: "03",
       category: "LIVING SETUP",
       title: "Cozy Living Room Setup",
       image: "/img/livingroom.jpeg",
       description: "Living room with a cozy and modern design.",
       detailsLink: "/Livingroom"
     },
+     {
+      id: "04",
+      category: "Michelangelo Italian Flooring",
+      title: "Premium Italian Flooring",
+      image: "/image/z2.jpeg",
+      description: "Flooring with a clean and modern design.",
+      detailsLink: "/Michelangelo"
+    },
+
   ];
 
   const itemsToShow = (isMobile && !showAll) ? [items[0]] : items;

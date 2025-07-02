@@ -24,7 +24,11 @@ const Josef = Sen({
 
 export const metadata = {
   title: "Vishwakarma Civil And Stone Work",
-  description: "Vishwakarma Civil and Stone Work is proud to be the leading provider of premium natural stone flooring in Surat, known for our unmatched craftsmanship and luxurious finishes. Renowned across Gujarat, we stand among the best for delivering timeless elegance and exceptional quality.",
+  description:
+    "Vishwakarma Civil and Stone Work is proud to be the leading provider of premium natural stone flooring in Surat, known for our unmatched craftsmanship and luxurious finishes. Renowned across Gujarat, we stand among the best for delivering timeless elegance and exceptional quality.",
+  verification: {
+    google: "Qojhb3uODo9pb0LyIrqFZOYgC4sOVHSPhxSsZvbrP_8",
+  },
 };
 
 export default function RootLayout({ children }) {

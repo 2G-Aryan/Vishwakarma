@@ -74,7 +74,7 @@ const HeroSection = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="flex flex-col items-center gap-4 text-center ">
+      <div className="flex flex-col items-center gap-4 text-center font-cinzel">
         {/* Display typed lines */}
         {displayedLines.map((group, groupIndex) => (
           <div key={groupIndex} className="flex gap-4">

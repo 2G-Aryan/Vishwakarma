@@ -14,6 +14,10 @@ const bathroom = () => {
     "/img/p8.jpeg",
     "/img/bathroom.jpeg",
     "/img/p1.jpeg",
+    "/images/x12.jpeg",
+    "/images/x16.jpeg",
+    "/images/x17.jpeg",
+    "/images/x21.jpeg",
     
   ];
 
